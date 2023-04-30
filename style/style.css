@@ -529,6 +529,8 @@ a {
 .comments__answer-title {
   font-weight: normal;
   line-height: 1.65;
+  display: flex;
+  align-items: center;
   font-size: 1.6470588235294rem;
   color: #536942;
 }
@@ -627,4 +629,63 @@ a {
 }
 .comments__answer {
   display: none;
+}
+.footer__menu-linka {
+  line-height: 20px;
+  padding: 13px 20px;
+  transition: all 0.3s;
+  font-family: "Montserrat", Sans-serif;
+  border-bottom: 3px solid #ffffff;
+}
+.header__text {
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0px;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+.about {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about__text {
+  color: #000000;
+  font-family: "Montserrat", Sans-serif;
+  line-height: 35px;
+}
+.studies {
+  background-color: #e2ac62;
+  padding-top: 70px;
+}
+.studies__content span {
+  display: block;
+  width: 55px;
+  height: 1.6px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.studies__content-title {
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-transform: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.studies__content-text {
+  margin-top: 25px;
+  line-height: 25px;
+  font-size: 17px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Montserrat", Sans-serif;
+}
+.studies__container span {
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 1.6px;
+  width: 570px;
 }
