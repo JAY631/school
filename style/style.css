@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Montserrat", Sans-serif;
 }
+button {
+  cursor: pointer;
+}
 *::selection {
   background-color: orange;
   color: #000;
@@ -915,10 +918,81 @@ a {
   .studies .col-6 {
     width: 100%;
   }
+  .header__menu-show,
+  .header__menu {
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 576px) {
   .container {
     max-width: 100%;
-    padding: 0 5px;
+    padding: 0 15px;
+  }
+  .history .container {
+    padding: 0;
+  }
+  .history {
+    padding: 0;
+  }
+  .history__accreditation,
+  .history__content {
+    width: 100%;
+  }
+  .history__accreditation {
+    height: 260px;
+  }
+  .history__content {
+    height: auto;
+  }
+  .history__content-body p {
+    font-size: 15px;
+  }
+  .studies__container span {
+    width: 340px;
+  }
+  .col-4,
+  .col-3 {
+    width: 100%;
+  }
+  .header__menu-show,
+  .header__menu {
+    flex-wrap: wrap;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .footer__content {
+    flex-wrap: wrap;
+  }
+  .hero__text {
+    text-align: center;
+    font-size: 15px;
+  }
+  .hero__title {
+    font-size: 40px;
+    line-height: 0;
+  }
+  .hero {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .studies__container span {
+    width: 225px;
+  }
+  .news__content {
+    width: 218px;
+    margin: 0 auto;
+  }
+  .comments__content,
+  .hello,
+  .comments__title,
+  .leave,
+  .comments__answer {
+    padding: 10px;
+  }
+  .comments__answer-title,
+  .comments__logo {
+    flex-wrap: wrap;
   }
 }
