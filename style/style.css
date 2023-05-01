@@ -196,7 +196,7 @@ a {
   height: 590px;
   padding: 30px;
   width: 60%;
-  background-color: #bd239c;
+  background-color: #e2ac62;
 }
 .history__accreditation-head h3,
 .history__content-head h3 {
@@ -660,7 +660,7 @@ a {
 }
 .studies__content span {
   display: block;
-  width: 55px;
+  width: 55px !important;
   height: 1.6px;
   background-color: #fff;
   margin: 0 auto;
@@ -716,4 +716,209 @@ a {
 }
 .studies__wrap .col-6 {
   padding: 0 60px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .header__menu {
+    column-gap: 25px;
+  }
+  .news__content {
+    width: 300px;
+  }
+  .news__date {
+    padding: 15px 20px;
+  }
+  .news__all {
+    padding: 15px 20px 0 20px;
+  }
+  .history__content,
+  .history__accreditation {
+    height: 638px;
+    padding: 20px;
+  }
+  .mission__content-text {
+    font-size: 16px;
+  }
+  .footer__menu-link,
+  .footer__menu-links {
+    padding: 13px 15px;
+  }
+  .gallery__img {
+    width: 220px;
+  }
+  .comments__answer-title {
+    font-size: 20px;
+  }
+  .leave__flex {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .mission__content-text {
+    font-size: 12px;
+    line-height: 25px;
+  }
+  .mission__content-number {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .col-4 {
+    width: 50%;
+  }
+  /* .history__content,
+  .history__accreditation {
+    width: 400px;
+  } */
+  .history__content-body p {
+    font-size: 18px;
+  }
+  .col-3 {
+    width: 33.3%;
+    margin-top: 10px;
+  }
+  .footer__menu {
+    column-gap: 35px;
+  }
+  .footer__menu-link,
+  .footer__menu-links {
+    padding: 13px 5px;
+  }
+  .mobile-btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .header__titles {
+    z-index: 5;
+  }
+  .header__bottom {
+    position: relative;
+  }
+  .mobile-btn span,
+  .mobile-btn span::before,
+  .mobile-btn span::after {
+    content: "";
+    display: block;
+    background-color: #e2ac62;
+    height: 5px;
+    position: absolute;
+    width: 100%;
+  }
+  .mobile-btn span::after {
+    bottom: -15px;
+  }
+  .mobile-btn span::before {
+    top: -15px;
+  }
+  .header__bottom::before {
+    content: "";
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .header__top {
+    display: none;
+  }
+  .header__menu {
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    top: 0px;
+    width: 100%;
+    padding: 15px 0;
+    justify-content: center;
+    z-index: 1;
+    transition: 0.7s;
+  }
+  .header__menu-show {
+    z-index: 11;
+    top: 70px;
+    border-top: 1px solid #e2ac62;
+    box-shadow: 0px 0px 10px 0px rgba(185.25, 185.25, 185.25, 0.5);
+  }
+  .header__text {
+    z-index: 10;
+    position: relative;
+    padding: 10px 0;
+    display: none;
+  }
+  /* .top {
+    top: 125px;
+  } */
+  .studies__container span {
+    width: 465px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .hero {
+    height: 450px;
+  }
+  .hero__title {
+    font-size: 60px;
+    line-height: 40px;
+  }
+  .news__content {
+    width: 250px;
+  }
+  .news__all {
+    padding: 15px 15px 0 15px;
+  }
+  .history__content,
+  .history__accreditation {
+    width: 435px;
+    margin: 0 auto;
+  }
+  .history__contents {
+    flex-wrap: wrap;
+  }
+  .col-3 {
+    width: 50%;
+  }
+  .mission__content-text {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .footer__menu {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .comments__answer {
+    padding: 0 65px;
+  }
+  .comments__label input {
+    width: 100%;
+  }
+  .leave {
+    padding: 4em 3.67em;
+  }
+  .hello {
+    padding: 4em 3.67em;
+  }
+  .about .col-6,
+  .studies .col-6 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 0 5px;
+  }
 }

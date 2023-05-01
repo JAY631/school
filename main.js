@@ -2,6 +2,7 @@ let open = document.getElementById("open");
 let close = document.getElementById("close");
 let answer = document.getElementById("answer");
 let leave = document.getElementById("leave");
+
 open.onclick = function () {
   answer.style.display = "block";
   leave.style.display = "none";
