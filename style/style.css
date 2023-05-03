@@ -112,6 +112,7 @@ a {
   background-size: cover;
   background-position: 25% 35%;
   /* background-position: center; */
+  background-attachment: fixed;
   height: 670px;
   display: flex;
   flex-direction: column;
